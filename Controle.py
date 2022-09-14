@@ -11,8 +11,11 @@ def funcao_principal():
 
     if  Formulario.radioButton.isChecked():
         print('Categoria selecionada  foi Informatica')
-    elif Formulario.radioButton_2.ischecked() :
+    elif Formulario.radioButton_2.isChecked () :
         print('Categoria selecionada foi Alimentos')
+    else :
+        print ('Categoria Selecionados foi Eletronico')
+
 
 app = QtWidgets.QApplication([])
 Formulario= uic.loadUi('Formulario.ui')
