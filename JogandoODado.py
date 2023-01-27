@@ -2,7 +2,6 @@
 import random
 import PySimpleGUI as sg
 
-
 class SimuladorDeDado:
     def __init__(self):
         self.valor_mimimo = 1
@@ -34,7 +33,6 @@ class SimuladorDeDado:
 
     def GerarValorDoDado(self):
         print(random.randint(self.valor_mimimo,self.valor_maximo))
-
     
 simulador = SimuladorDeDado()
 simulador.Iniciar()
